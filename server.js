@@ -32,7 +32,7 @@ app.get("/api/students", (req, res) => {
 });
 
 
-app.post("api/students", (req, res) => {
+app.post("/api/students", (req, res) => {
     let {name} = req.body;
     name = name.trim();
 
